@@ -1,0 +1,6 @@
+{
+  "model": "opus[1m]",
+  "autoUpdatesChannel": "latest",
+  "skipDangerousModePermissionPrompt": true,
+  "theme": "dark"
+}
