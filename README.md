@@ -22,6 +22,7 @@ Each top-level directory is a Stow package whose contents mirror where the files
 | `git` | `~/.gitconfig`, `~/.config/git/` |
 | `tmux` | `~/.config/tmux/` |
 | `nvim` | `~/.config/nvim/` |
+| `stylua` | `~/.config/stylua/` (2-space Lua formatting unless a project has its own config) |
 | `ghostty` | `~/.config/ghostty/` |
 | `wezterm` | `~/.config/wezterm/` |
 | `gh` | `~/.config/gh/config.yml` |

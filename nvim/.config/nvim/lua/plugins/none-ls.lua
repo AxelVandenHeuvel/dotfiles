@@ -10,6 +10,9 @@ return {
         null_ls.builtins.formatting.black,
       },
     })
-    vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
+    -- none-ls owns formatting; language servers that can also format (lua_ls, ts_ls) are skipped
+    vim.keymap.set("n", "<leader>gf", function()
+      vim.lsp.buf.format({ filter = function(client) return client.name == "null-ls" end })
+    end, {})
   end,
 }
