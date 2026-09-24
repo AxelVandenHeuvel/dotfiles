@@ -3,6 +3,7 @@ tap "axelvandenheuvel/tap", trusted: { casks: ["speakez"] }
 # --- Shell ---
 brew "bat"
 brew "eza"
+brew "fd"
 brew "fzf"
 brew "starship"
 brew "zoxide"

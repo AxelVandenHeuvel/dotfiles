@@ -24,4 +24,6 @@ require("lazy").setup({
     { import = "plugins" },
   },
   checker = { enabled = true },
+  -- no plugins here need luarocks; without this, :checkhealth reports it as an error
+  rocks = { enabled = false },
 })
